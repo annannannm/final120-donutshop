@@ -62,7 +62,7 @@ login_form.addEventListener("submit", (event) => {
 
     // Manager login
     if (username === "manager" && password === "donuts123") {
-        window.location.href = "manager.html";
+        window.location.href = "mandash.html";
         return;
     }
     let users = JSON.parse(localStorage.getItem("users")) || [];

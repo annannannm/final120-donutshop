@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashboard</title>
 </head>
-<link rel = "stylesheet" href = "style.css">
+<link rel = "stylesheet" href = "manstyle.css">
 <body>
 
     <header>
@@ -15,7 +15,38 @@
         </div>
         <div class = "greeter">
             <h1>Hello Management!</h1>
-            
+            <div class = "btn-wrap">
+                <div class = "btn1" >
+                    <button onclick = "displayForm()" type="button" id="add-menu-btn" style="border: none; background: transparent; cursor: pointer;">
+                        <img src = "images/pinkdonut.png" width="80px">
+                    </button>
+                    <p class = "btn-text">Edit Menu</p>
+                </div>
+                <div id = "menu-container">
+                    <template id="menu-item-template">
+                        <div class="menu-card">
+                            <img class="card-img" src="" alt="Menu Item" />
+                            <h3 class="card-title"></h3>
+                            <p class="card-price"></p>
+                            <p class = "card-stock"></p>
+                        </div>
+                    </template>
+                </div>
+                
+
+                </div>
+                <div id = "form-container">
+                </div>
+                <!-- <h3 id = "revenue"> Revenue: </h3> -->
+                 <!-- <div class = "btn2">
+                    <button type="button" id="stock-btn" style="border: none; background: transparent; cursor: pointer;">
+                        <img src = "images/purpledonut.png" width = "120px">
+                    </button>
+                    <p class = "btn-text">View Stock</p> -->
+
+                </div>
+                
+            </div>
         </div>
     </header>
 
