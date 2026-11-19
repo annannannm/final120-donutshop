@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 const sign_in_btn = document.querySelector("#sign-in-btn");
 const sign_up_btn = document.querySelector("#sign-up-btn");
 const container = document.querySelector(".container");
@@ -84,7 +83,6 @@ login_form.addEventListener("submit", (event) => {
 
 
 
-=======
 const buttons = document.querySelectorAll('.tabbtn');
 const contents = document.querySelectorAll('.tab-content');
 
@@ -99,4 +97,3 @@ buttons.forEach(button => {
     document.getElementById(targetId).classList.add('active');
   });
 });
->>>>>>> origin/ez
