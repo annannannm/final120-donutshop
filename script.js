@@ -32,6 +32,8 @@ function addMenu() {
         return;
     }
 
+    const 
+
     const clone = template.content.cloneNode(true);
     clone.querySelector(".card-img").src = URL.createObjectURL(imageFile);
     clone.querySelector(".card-stock").textContent = `Stock: ${stock}`;
@@ -39,6 +41,8 @@ function addMenu() {
     clone.querySelector(".card-price").textContent = `$${Number(price).toFixed(2)}`;
     menuitem.appendChild(clone);
 }
+
+
 const sign_in_btn = document.querySelector("#sign-in-btn");
 const sign_up_btn = document.querySelector("#sign-up-btn");
 const container = document.querySelector(".container");
