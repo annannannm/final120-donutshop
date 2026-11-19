@@ -6,7 +6,9 @@
 body{
     background-image: url(images/bgdonut.jpg);
     background-repeat: no-repeat;
-    background-size: 105%;
+    background-size: 105% 110%;
+    min-height: 100vh;
+    height: auto;
 }
 
 
@@ -27,6 +29,9 @@ body{
 .logo h2{
     font-size: 45px;
     color: palevioletred;
+}
+.logo h1{
+    margin-top: 10px;
 }
 
 .greeter{
@@ -70,6 +75,7 @@ button{
 form{
     margin-top: 10px;
     gap: 8px;
+    gap: 5px;
     max-width: 200px;
     display: flex;
     flex-direction: column;
@@ -92,3 +98,80 @@ input[type="text"] {
   color: palevioletred;           
   border: 2px solid palevioletred;
 } */
+
+
+/* donut and drink tabs */
+.tab-buttons {
+  align-items: center;
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+  color: pink;
+}
+
+.tabbtn {
+  padding: 10px 20px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+.tabbtn.active {
+  background-color: #333;
+  color: white;
+}
+
+.tab-content {
+  display: none;
+  padding: 15px;
+  border: 1px solid #ccc;
+}
+
+.tab-content.active {
+  font-family: monospace;
+  text-align: center;
+  display: block;
+  color: pink;
+border: #333;
+}
+
+
+.dude{
+    width: 100px;
+    height: 160px;
+    object-fit: contain;
+    margin-bottom: 12px;
+}
+
+.item-grid {
+    margin-bottom: 50px;
+    margin-top: 17px;
+    display: flex;
+    flex-wrap: wrap;        
+    justify-content: center;
+    gap: 18px; 
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    text-align: center;
+    width: 200px;          
+    padding: 3px;
+    border: 4px solid lightpink;
+    border-radius: 10px;
+}
+
+.item p{
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-family: monospace;
+    color: palevioletred;
+}
+
+
+.cartbtn{
+    margin-top: auto;
+    margin-bottom: 7px;
+}
